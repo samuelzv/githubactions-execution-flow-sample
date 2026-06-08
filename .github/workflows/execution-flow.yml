@@ -83,6 +83,6 @@ jobs:
       - name: Output information
         run: |
           echo "Somenting went wrong"
-          echo "${{ github }}"
+          echo "${{ toJson(github) }}"
 
 
